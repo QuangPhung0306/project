@@ -1,0 +1,15 @@
+en:
+  api:
+    errors:
+      category_not_found:
+        status: 'error'
+        code: 3000
+        message: 'Category không tồn tại.'
+      post_not_found:
+        status: 'error'
+        code: 4000
+        message: 'Bài viết không tồn tại.'
+      authorize_failed:
+        status: 'error'
+        code: 5000
+        message: 'Không được phép truy cập tài nguyên này.'

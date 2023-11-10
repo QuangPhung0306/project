@@ -1,0 +1,1 @@
+Rails.application.config.session_store :active_record_store, :key => '_my_blog_rails_session', secure: Rails.env.production?

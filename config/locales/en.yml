@@ -1,0 +1,22 @@
+en:
+  date:
+    formats:
+      # Use the strftime parameters for formats.
+      # When no format has been given, it uses default.
+      # You can provide other formats here if you like!
+      default: "%Y-%m-%d"
+      short: "%b %d"
+      long: "%B %d, %Y"
+      actual: "%d/%m/%Y"
+  time:
+    formats:
+      default: "%a, %d %b %Y %H:%M:%S %z"
+      short: "%d %b %H:%M"
+      long: "%B %d, %Y %H:%M"
+      actual: "%H:%M %d/%m/%Y"
+
+  activerecord:
+    models:
+      post:
+        one: "Bài viết"
+        other: "Danh sách bài viết"  
